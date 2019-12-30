@@ -1,0 +1,58 @@
+body{
+  background-color: #7629e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.wrapper {
+  background-color: #fff;
+  height: 90vh;
+  width: 42%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.child {
+  width: auto;
+}
+
+
+h1 {
+  font-family: 'Calistoga', cursive;
+  font-weight: 200;
+}
+
+label {
+  font-family: 'Calistoga', cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+  margin: 1vh 0;
+}
+
+/*@media screen and (max-width: 700px) {
+  label {
+    font-size: 3px;
+  }
+}*/
+
+button {
+  background-color: #2ca5f5;
+  height: 4vh;
+  border-radius: 2px;
+  border: 2px solid #8c8c8c;
+  font-family: 'Ibarra Real Nova', serif;
+  color:#fff;
+  margin: 1vh 0;
+}
+
+input{
+  background-color: #c8cacc;
+  border: 2px solid #2ca5f5;
+  height: 2.5vh;
+}
